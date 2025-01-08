@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots {
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots li button:before {
+    font-size: 8px;
+    color: gray;
+}
+
+.slick-dots li.slick-active button:before {
+    color: black;
+}
